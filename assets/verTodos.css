@@ -1,0 +1,40 @@
+.subtitulo {
+    text-align: center;
+    font-size: 28px;
+    background-color: rgb(58, 85, 236);
+    border-radius: 5px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    margin-top: 45px;
+    background-color: white;
+    padding: 40px;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 2px 2px 13px black;
+    border-radius: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.card p {
+    text-align: center;
+    padding: 5px;
+}
+
+.card h3 {
+    color: rgb(4, 0, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.025);
+}
