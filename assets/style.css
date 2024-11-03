@@ -102,3 +102,12 @@ justify-content: space-between;
     
 }
 
+
+/* Responsividade */
+@media (max-width: 320px) {
+    .body {
+        width: 50%;
+        display: flex;
+    }
+    
+}
