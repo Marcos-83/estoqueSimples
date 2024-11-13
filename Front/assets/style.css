@@ -1,0 +1,116 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:"Roboto", sans-serif;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+background-color:#c2bdaa;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.cabecalho {
+    background-color: #ededf5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 80px;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.item_menu {
+    background-color: #ababb4;
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 2px 2px 7px black;
+    border-radius: 5px;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+
+.item_menu:hover {
+    background-color: rgb(157, 157, 172);
+    text-decoration: underline;
+    
+}
+
+.principal {
+    padding: 55px;
+    margin-bottom: 15%;
+    
+   
+
+}
+
+.sessao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.subtitulo {
+    color:#f32509;
+
+    
+}
+
+.destaque {
+    color: #f32509;
+    font-weight: bold;
+}
+
+.lista_funcionalidade {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.rodape {
+    background-color: #ededf5;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    
+}
+
+
+/* Responsividade */
+@media (max-width: 320px) {
+    .body {
+        width: 50%;
+        display: flex;
+    }
+    
+}
