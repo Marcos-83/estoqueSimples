@@ -51,9 +51,15 @@ justify-content: space-between;
     border-radius: 5px;
 }
 
-.logo {
+.est {
     color: rgb(0, 0, 0);
     font-family: "Edu AU VIC WA NT Dots", cursive;
+    margin-right: 580px;
+}
+
+.logo {
+    height: 40px;
+    width: 50px;
 }
 
 .item_menu:hover {
@@ -74,7 +80,8 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    margin-left: 2rem;
+    
 }
 
 .subtitulo {
@@ -113,4 +120,13 @@ justify-content: space-between;
         display: flex;
     }
     
+}
+
+.imagem {
+    width: 400px;
+    height: 430px;
+    position: absolute;
+    bottom: 4rem;
+    margin-left: 50rem;
+
 }
